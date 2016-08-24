@@ -13,9 +13,9 @@ export default class ClassCompositionDemo extends Component {
   render() {
     const files = [
       { name: 'StyleVariantA.js', source: js },
-      { name: 'StyleVariantA.css', source: css },
-      { name: 'shared/styles/layout.css', source: layoutCss },
-      { name: 'shared/styles/typography.css', source: typographyCss }
+      { name: 'StyleVariantA.css.js', source: css },
+      { name: 'shared/styles/layout.css.js', source: layoutCss },
+      { name: 'shared/styles/typography.css.js', source: typographyCss }
     ];
 
     return (

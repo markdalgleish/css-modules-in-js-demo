@@ -11,7 +11,7 @@ export default class ScopedSelectorsDemo extends Component {
   render() {
     const files = [
       { name: 'ScopedSelectors.js', source: js },
-      { name: 'ScopedSelectors.css', source: css }
+      { name: 'ScopedSelectors.css.js', source: css }
     ];
 
     return (

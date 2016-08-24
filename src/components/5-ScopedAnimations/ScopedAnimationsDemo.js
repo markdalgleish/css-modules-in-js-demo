@@ -12,8 +12,8 @@ export default class ScopedAnimationsDemo extends Component {
   render() {
     const files = [
       { name: 'ScopedAnimations.js', source: js },
-      { name: 'ScopedAnimations.css', source: css },
-      { name: 'shared/styles/animations.css', source: animationsCss }
+      { name: 'ScopedAnimations.css.js', source: css },
+      { name: 'shared/styles/animations.css.js', source: animationsCss }
     ];
 
     return (

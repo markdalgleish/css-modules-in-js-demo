@@ -13,9 +13,9 @@ export default class CompositionOverridesDemo extends Component {
   render() {
     const files = [
       { name: 'CompositionOverrides.js', source: js },
-      { name: 'CompositionOverrides.css', source: css },
-      { name: 'shared/styles/layout.css', source: layoutCss },
-      { name: 'shared/styles/typography.css', source: typographyCss }
+      { name: 'CompositionOverrides.css.js', source: css },
+      { name: 'shared/styles/layout.css.js', source: layoutCss },
+      { name: 'shared/styles/typography.css.js', source: typographyCss }
     ];
 
     return (
