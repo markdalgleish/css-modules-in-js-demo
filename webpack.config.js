@@ -18,7 +18,6 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss') },
       { test: /\.css.js$/, loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=3&localIdentName=[name]__[local]___[hash:base64:5]!postcss!css-in-js!babel') },
       { test: /\.svg$/, loader: 'url?limit=10000&mimetype=image/svg+xml' }
     ]
